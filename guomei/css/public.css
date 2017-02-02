@@ -14,3 +14,6 @@ a:hover {
 a {
     text-decoration: none;
 }
+em, i, u {
+    font-style: normal;
+}
