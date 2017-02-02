@@ -9,7 +9,7 @@ body, button, input, select, textarea {
     font: 12px/1.5 arial,"\65b0\5b8b\4f53";
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a {
     text-decoration: none;

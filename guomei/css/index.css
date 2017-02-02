@@ -774,7 +774,7 @@ img {
     left: 199px;
     z-index: 99;
     width: 1000px;
-/*    display: none;*/
+    display: none;
 }
 .ywm-sync {
     z-index: 1000;
@@ -903,13 +903,12 @@ img {
 .ywm-brand-box {
     width: 200px;
     margin: 0 0 0 -2px;
-    _margin: 0 0 0 -2px;
 }
-.ywm-brang-box a {
+.ywm-brand-box a{
     display: inline-block;
     float: left;
 }
-.ywm-brang-box a img {
+.ywm-brand-box a img{
     display: block;
     margin: 20px 20px 0 10px;
     width: 70px;
@@ -931,6 +930,32 @@ img {
     width: 800px;
     overflow: hidden;
     position: relative;
+}
+.ywm-mainnav li{
+    position: relative;
+    float: left;
+    padding: 0 16px;
+    text-align: center;
+    line-height: 38px;
+    white-space: nowrap;
+}
+.ywm-mainnav li a {
+    color: #000;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Microsoft YaHei';
+}
+.ywm-mainnav li a:hover {
+    color: #d7000f;
+}
+.ywm-tag-newpic{
+    position: absolute;
+    width: 29px;
+    height: 14px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: url(../images/newpic.png);
 }
 .ywm-nav-rightad {
     float: right;
