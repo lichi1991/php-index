@@ -1106,7 +1106,329 @@ li.active a{
     z-index: 50;
     cursor: pointer;
 }
+.ywm-server-warp{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 350px;
+    width: 250px;
+}
+.ywm-server-bg{
+    opacity: .9;
+    background: #fff;
+    position: absolute;
+    width: 250px;
+    height: 430px;
+    left: 0;
+    top: 10px;
+}
+.ywm-server{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 430px;
+    left: 0;
+    top: 10px;
+}
+.ywm-server-kuaixun{
+    height: 180px;
+    width: 220px;
+    overflow: hidden;
+    margin: 0 15px;
+    border-bottom: 1px dashed #ccc;
+}
+.ywm-gome-new{
+    height: 36px;
+    width: 220px;
+    overflow: hidden;
+}
+.ywm-gome-new h2{
+    font-size: 14px;
+    float: left;
+    color: #333;
+    margin-top: 12px;
+    font-weight: 400;
+}
+.ywm-gome-new a{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: #888;
+    float: right;
+}
+.ywm-gome-new span{
+    width: 5px;
+    height: 9px;
+    font-size: 1px;
+    background: url(../images/btnui.png) -126px -130px no-repeat;
+    display: inline-block;
+    margin-left: 4px;
+}
+.ywm-gome-newcontent span{
+    display: block;
+    width: 250px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+}
+.ywm-new-sort{
+    color: #888;
+    margin-right: 7px;
+    float: left;
+    display: block;
+    width: 24px;
+    overflow: hidden;
+    height: 26px;
+}
+.ywm-new-text{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 196px;
+}
+.ywm-new-text {
+    color: #5e5e5e;
+}
+.ywm-new-text.red,.ywm-new-text:hover{
+    color: #e3101e;
+}
+.ywm-sever-box{
+width: 250px;
+    height: 249px;
+}
+.ywm-icon-box{
+width: 220px;
+    height: 249px;
+    overflow: hidden;
+    position: relative;
+    left: 15px;
+}
+.ywm-icon-server li{
+float: left;
+    width: 55px;
+    height: 78px;
+    padding-top: 5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.ywm-icon-server-a{
+    display: block;
+    height: 75px;
+    width: 38px;
+    position: absolute;
+    left: 14px;
+}
+.ywm-icon-server-a .ywm-gm-icon{
+    font-size: 32px;
+    margin-left: -13px;
+    color: #5e5e5e;
+}
+
+.ywm-icon-server-li-titile{
+    color: #5e5e5e;
+    margin-left: -5px;
+    width: 36px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    margin-top: -3px;
+}
+.ywm-icon-server-li-triangle{
+border-left: 3px dashed transparent;
+    border-right: 3px dashed transparent;
+    border-top: 3px solid #c9c9c9;
+    font-size: 0;
+    height: 0;
+    left: 50%;
+    line-height: 0;
+    margin-left: -11px;
+    position: absolute;
+    top: 70px;
+    width: 0;
+}
 .ywm-mode-area{
     height: 220px;
     width: 100%;
+}
+.ywm-ad-main{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.ywm-ad-main li{
+    float: left;
+}
+.ywm-ad-main li a{
+    display: block;
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+    background: #fff;
+}
+.ywm-ad-main li a img{
+    display: block;
+    width: 240px;
+    height: 200px;
+}
+/*特辑栏目*/
+.ywm-gm-feature{
+height: 481px;
+width: 100%;
+    overflow: hidden;
+}
+.ywm-gm-fm a{
+display: block;
+    float: left;
+}
+.ywm-fm-left{
+    width: 420px;
+    float: left;
+    margin-right: 10px;
+    height: 481px;
+}
+.ywm-fm-title{
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.ywm-fm-title h2{
+    font-family: Arial,"Microsoft Yahei";
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    font-weight: 400;
+    float: left;
+}
+.ywm-fm-title span{
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.ywm-fm-inner{
+    border: 1px solid #e6e6e6;
+    width: 418px;
+    height: 419px;
+    background: #fff;
+    overflow: hidden;
+}
+.ywm-special{
+    display: block;
+    width: 219px;
+    height: 419px;
+}
+.ywm-line-dash{
+    border-bottom: 1px dashed #eee;
+}
+.ywm-fm-pic{
+    display: block;
+    width: 199px;
+    height: 209px;
+}
+
+.ywm-fm-center{
+    width: 420px;
+    float: left;
+    margin-right: 10px;
+    height: 481px;
+}
+
+.ywm-fm-right{
+    width: 340px;
+    float: right;
+}
+.ywm-fm-inner.fml{
+    width: 338px;
+ }   
+.ywm-inner-left{
+        width: 219px;
+    float: left;
+}
+.ywm-fm-brands{
+width: 119px;
+    float: right;
+}
+.ywm-fm-end-inner{
+border-left: 1px solid #eee;
+    height: 419px;
+}
+
+.ywm-fm-end-inner a{
+display: block;
+    height: 59px;
+    width: 118px;
+    text-align: center;
+    border-bottom: 1px #eee dashed;
+    opacity: .9;
+}
+.ywm-fm-end-inner a img{
+        display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+}
+    
+/*金融栏目*/
+.ywm-gm-finance .ywm-fm-center{
+    height: 230px;
+    width: 1199px;
+    border-right: 1px solid #e6e6e6;
+}
+.ywm-gm-finance .ywm-fm-left{
+    width: 420px;
+    height: 230px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: 0px;
+}
+.ywm-finance-entrance{
+    height: 28px;
+    background: #fd585e;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 13px;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    bottom: 48px;
+    font-weight: 400;
+    z-index: 1;
+    border-radius: 2px;
+}
+.ywm-finance-entrance a{
+    color: #fff;
+    display: inline-block;
+    height: 21px;
+}
+.ywm-finance-entrance span{
+    display: inline-block;
+    margin-left: 10px;
+    width: 6px;
+    height: 11px;
+    background: url(../images/btnui.png) -126px -52px no-repeat;
+}
+.ywm-gm-finance .ywm-fm-right{
+    width: 779px;
+    float: left;
+    height: 228px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.ywm-gm-finance .ywm-fm-right ul {
+    width: 780px;
+}
+.ywm-fi-pic{
+    width: 194px;
+}
+.ywm-gm-finance .ywm-fm-right a {
+    display: block;
+    float: left;
+    width: 195px;
+    height: 228px;
 }
