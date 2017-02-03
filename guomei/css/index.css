@@ -979,3 +979,134 @@ img {
     width: 13px;
     height: 20px; 
 }
+
+/*焦点*/
+.ywm-gm-main{
+    position: relative;
+    min-width: 1200px;
+}
+.ywm-focus{
+    height: 450px;
+    width: 100%;
+    background: #eee;
+    position: relative;
+}
+.ywm-focus-bg a img{
+    width: 300px;
+    height: 450px; 
+}
+    
+.foucs-img-bgleft{
+    left: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    margin-left: -900px;
+}
+.foucs-img-bgright{
+    left: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    margin-left: 600px;
+}
+.ywm-banner-box li {
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    display: none;
+}
+.ywm-banner-box li a {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+.ywm-banner-box li a img {
+    display: block;
+    width: 750px;
+    height: 450px;
+}
+.ywm-editbtn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -400px;
+    width: 750px;
+    height: 15px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+.ywm-editbtn li{
+    width: 30px;
+    height: 13px;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.ywm-editbtn li a {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #000;
+    opacity: .3;
+    margin-top: 4px;
+}
+li.active a{
+    background: #e3101e;
+    opacity: 1;
+}
+.ywm-btn-pre{
+    margin-left: 268px;
+    z-index: 59;
+    left: 50%;
+    top: 185px;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+}
+.ywm-btn-next{
+    margin-left: 309px;
+    z-index: 59;
+    left: 50%;
+    top: 185px;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+}
+.ywm-btn-next span,.ywm-btn-pre span{
+    display: block;
+    background: #000;
+    opacity: .2;
+    top: 0;
+    left: 0;
+    z-index: 59;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+}
+.ywm-btn-pre p{
+    background: url(../images/btnui.png) 0 -112px no-repeat;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    cursor: pointer;
+}
+.ywm-btn-next p{
+    background: url(../images/btnui.png) -42px -112px no-repeat;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    cursor: pointer;
+}
+.ywm-mode-area{
+    height: 220px;
+    width: 100%;
+}
