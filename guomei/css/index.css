@@ -406,8 +406,8 @@ img {
 }
 
 .ywm-wbox {
+    width: 1200px;
     margin: 0 auto;
-    width: 75pc;
 }
 
 .ywm-topad-close {
@@ -1523,5 +1523,406 @@ color: #e3101e;
     margin: 8px 0 0 20px;
     font-size: 16px;
     font-family: "Arial "\9;
+    font-family: Arial,"Microsoft Yahei";
+}
+/*楼层开始*/
+.ywm-floorp{
+    position: relative;
+    min-height: 480px;
+}
+.ywm-mt{
+    height: 38px;
+    padding-top: 32px;
+}
+.ywm-mtTop{
+    width: 210px;
+    height: 38px;
+    overflow: hidden;
+    float: left;
+    line-height: 38px;
+    font-size: 20px;
+    font-family: Arial,"Microsoft Yahei";
+}
+.ywm-h2-text{
+    float: left;
+    padding-right: 6px;
+}
+.ywm-mtTop h2{
+    font-weight: 500;
+    font-size: 100%;
+}
+.ywm-tab {
+    float: right;
+    margin-top: 8px;
+    max-width: 790px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.ywm-tab li{
+    float: left;
+}
+.ywm-tab a {
+    font-size: 14px;
+    color: #5e5e5e;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+.ywm-tab li.ywm-cur a {
+    color: #fff;
+}
+.ywm-mc {
+    height: 470px;
+}
+.ywm-mc-l {
+    height: 470px;
+    width: 210px;
+    float: left;
+    position: relative;
+}
+.ywm-mc-l-img {
+    display: block;
+    background: #fff;
+}
+.ywm-mc-l img {
+    margin-left: -10px;
+    display: block;
+    width: 220px;
+    height: 278px;
+}
+.ywm-key {
+    height: auto;
+    width: 210px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.ywm-channelbg {
+    max-height: 98px;
+    width: 220px;
+    position: absolute;
+    left: -10px;
+    bottom: 160px;
+    background: #fff;
+    overflow: hidden;
+}
+.ywm-channel-mode {
+    width: 210px;
+    margin-left: 10px;
+    min-height: 32px;
+}
+.ywm-channel-inner {
+    width: 180px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.ywm-channel-mode li {
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.ywm-channel-mode a {
+    height: 23px;
+    height: 24px\9;
+    display: inline-block;
+    font-size: 14px;
+    color: #f0f0f0;
+    float: left;
+}
+.ywm-channel-mode span {
+    display: inline-block;
+    font-size: 14px;
+    color: #f0f0f0;
+    float: left;
+    padding: 0 5px;
+}
+.ywm-keywords{
+    height: 160px;
+    width: 210px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.ywm-keywords li {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+}
+.ywm-keywords li a {
+    display: inline-block;
+    color: #f0f0f0;
+    height: 20px;
+    font-size: 12px;
+    font-family: Arial,"Microsoft Yahei";
+}
+.ywm-w1{
+    height: 137px;
+    width: 50px;
+    float: left;
+    overflow: hidden;
+    margin: 8px 0 15px 15px;
+}
+.ywm-w2{
+    height: 137px;
+    width: 37px;
+    float: left;
+    overflow: hidden;
+    margin: 8px 0 15px 10px;
+}
+.ywm-w3{
+    height: 137px;
+    float: left;
+    overflow: hidden;
+    width: 73px;
+    margin: 8px 15px 15px 10px;
+}
+.ywm-main-warp {
+    width: 990px;
+    height: 470px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ywm-main {
+    width: 990px;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    display: none;
+}
+.ywm-mc-c{
+    position: relative;
+    height: 470px;
+    width: 389px;
+    float: left;
+    overflow: hidden;
+}
+.ywm-slider{
+    position: relative;
+}
+.ywm-slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470px;
+    width: 389px;
+    background: #fff;
+    display: none;
+}
+.ywm-nav {
+    position: absolute;
+    bottom: 121px;
+    left: 50%;
+    text-align: center;
+    margin-left: -40px;
+    width: 81px;
+    height: 16px;
+}
+.ywm-nav li {
+    width: 18px;
+    height: 10px;
+    display: inline-block;
+    zoom: 1;
+    margin-left: 1px;
+}
+.ywm-nav li a {
+    display: block;
+    width: 18px;
+    height: 4px;
+    background: #fff;
+    opacity: .6;
+    margin-top: 3px;
+}
+.ywm-main-inner li {
+    width: 198px;
+    height: 235px;
+    float: left;
+    overflow: hidden;
+}
+.ywm-main-inner li a {
+    width: 197px;
+    height: 234px;
+    display: block;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.ywm-main-inner li img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 20px 0 15px 34px;
+}
+.ywm-main-inner li .ywm-p-name,.ywm-main-inner li .ywm-p-price {
+    width: 157px;
+    height: 36px;
+    margin-left: 20px;
+    overflow: hidden;
+    line-height: 18px;
+    font-size: 12px;
+    color: #5e5e5e;
+}
+.ywm-tab li {
+    float: left;
+}
+.ywm-temp3{
+    padding-top: 40px;
+}
+.ywm-m-l{
+    width: 495px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    height: 431px;
+}
+.ywm-tp-l{
+    float: left;
+    width: 294px;
+}
+.ywm-tp-img{
+    display: block;
+    width: 294px;
+    height: 287px;
+    padding-top: 30px;
+    position: relative;
+}
+.ywm-tp-img img {
+    display: block;
+    width: 294px;
+    height: 287px;
+}
+.ywm-gain {
+    display: block;
+    width: 279px;
+    height: 40px;
+    padding-right: 15px;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+.ywm-gain span {
+    display: inline-block;
+    max-width: 56px;
+    height: 19px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 5px;
+    line-height: 19px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 10px 10px 0 15px;
+    float: left;
+    overflow: hidden;
+    font-family: Arial,"Microsoft Yahei";
+}
+.ywm-gain b {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+    line-height: 40px;
+    margin-right: 15px;
+    overflow: hidden;
+    font-family: Arial,"Microsoft Yahei";
+}
+.ywm-pindao{
+    width: 279px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 0;
+    padding-left: 15px;
+    overflow: hidden;
+    min-height: 32px;
+}
+.ywm-pindao li {
+    width: 264px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.ywm-words{
+    width: 294px;
+    height: 79px;
+}
+.ywm-wd{
+    width: 279px;
+    margin-right: 15px;
+    height: 48px;
+    padding-top: 17px;
+    overflow: hidden;
+}
+.ywm-wd li {
+    float: left;
+    padding-left: 15px;
+    line-height: 22px;
+    height: 22px;
+}
+.ywm-wd li a {
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    height: 17px;
+    overflow: hidden;
+}
+.ywm-tp-r {
+    float: left;
+    width: 201px;
+    height: 401px;
+    padding-top: 30px;
+}
+.ywm-tp-r li {
+    float: left;
+    width: 201px;
+    height: 201px;
+}
+.ywm-tp-r a {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+    position: relative;
+    text-align: center;
+}
+.ywm-tp-r .ywm-center {
+    top: 64px;
+    z-index: 1;
+    width: 201px;
+    height: 61px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+.ywm-tp-r span {
+    display: inline-block;
+    max-width: 128px;
+    padding: 0 10px;
+    height: 28px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 28px;
+    overflow: hidden;
+    font-family: Arial,"Microsoft Yahei";
+}
+.ywm-tp-r b {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+    width: 166px;
+    margin: 0 auto;
     font-family: Arial,"Microsoft Yahei";
 }
