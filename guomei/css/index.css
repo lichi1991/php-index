@@ -1774,6 +1774,15 @@ color: #e3101e;
     background: #fff;
     cursor: pointer;
 }
+.ywm-brand-slider.brand li{
+    width: 114px;
+    margin: 0 1px 1px 0;
+    height: 50px;
+    float: left;
+    opacity: .9;
+    background: #fff;
+    cursor: pointer;
+}
 .ywm-brand-slider img {
     display: block;
     width: 100px;
