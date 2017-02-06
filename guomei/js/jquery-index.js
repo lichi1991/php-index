@@ -18,7 +18,27 @@ $(".ywm-shopcartbox").hover(function(){
 		$(".ywm-overflow").eq(0).css("display","none");
 		$(".ywm-menulink").removeClass("ywm-hover");
 })
+//侧边栏的标签页效果
+        var topnav=$(".ywm-navbox");
+		var toptabnav=$(".ywm-navbox-ul li");
+		var toptabcontent=$(".ywm-fullcategory");
+		topnav.hover(toptabnav.hover(function(){
+		$(".ywm-subnav").show();
+		var topidx=toptabnav.index(this);
+		toptabcontent.eq(topidx).show().siblings('.ywm-fullcategory').hide();
+		}),function(){$(".ywm-subnav").hide()})
+
+//楼层的标签页效果
+        var floor=$(".ywm-floor")
+		var tabnav=$(".ywm-tab li");
+		var tabcontent=$(".ywm-main");
+		var tabhover=$(".ywm-tab a");
+		tabnav.hover(function() {
+			$(this).addClass('ywm-cur').siblings().removeClass('ywm-cur');
+			var idx=tabnav.index(this);
+			tabcontent.eq(idx).show().siblings('.ywm-main').hide();
+		});
 
 
-	
+
 })

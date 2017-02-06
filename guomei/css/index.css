@@ -1573,6 +1573,34 @@ color: #e3101e;
 .ywm-tab li.ywm-cur a {
     color: #fff;
 }
+.f1 .ywm-cur a{
+    background: rgb(148, 163, 228);
+}
+.f2 .ywm-cur a{
+    background: #6ebcee;
+}
+.f3 .ywm-cur a{
+    background: #788cdc;
+}
+.f4 .ywm-cur a{
+    background: #3bc6b1;
+}
+.f5 .ywm-cur a{
+    background: #d08e73;
+}
+.f6 .ywm-cur a{
+    background: rgb(255, 122, 108);
+}
+.f7 .ywm-cur a{
+    background: #5acd98;
+}
+.f8 .ywm-cur a{
+    background: #cf8f79;
+}
+.f9 .ywm-cur a{
+    background: rgb(187, 129, 223);
+}
+
 .ywm-mc {
     height: 470px;
 }
