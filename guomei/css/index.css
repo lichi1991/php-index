@@ -1592,6 +1592,15 @@ color: #e3101e;
 .ywm-temp .ywm-brand-slider {
     width: 460px;
 }
+.ywm-temp .ywm-main-inner {
+    width: 1080px;
+}
+.ywm-temp .ywm-main-inner li {
+    width: 216px;
+}
+.ywm-temp .ywm-main-inner li a {
+    width: 215px;
+}
 .ywm-temp .ywm-brand-slider li{
     width: 114px;
     margin: 0 1px 1px 0;
