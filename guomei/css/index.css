@@ -1576,6 +1576,26 @@ color: #e3101e;
 .ywm-mc {
     height: 470px;
 }
+.ywm-temp .ywm-mc-l {
+    width: 120px;
+}
+.ywm-temp .ywm-mc-l img {
+    width: 130px;
+    height: 245px;
+}
+.ywm-temp .ywm-mc-c, .ywm-temp .ywm-mc-c .ywm-slider li {
+    width: 479px;
+}
+.ywm-temp .ywm-main,.ywm-temp .ywm-main-warp {
+    width: 1080px;
+}
+.ywm-temp .ywm-brand-slider {
+    width: 460px;
+}
+.ywm-temp .ywm-brand-slider li{
+    width: 114px;
+    margin: 0 1px 1px 0;
+}
 .ywm-mc-l {
     height: 470px;
     width: 210px;
