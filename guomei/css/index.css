@@ -1633,6 +1633,24 @@ color: #e3101e;
     width: 114px;
     margin: 0 1px 1px 0;
 }
+.ywm-temp .ywm-slider li{
+    width: 479px;
+}
+.ywm-temp .ywm-slider img{
+    width: 479px;
+}
+.ywm-mc-r ul li.w199{
+    width: 200px;
+    height: 470px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.last{
+    position: absolute;
+    top: 235px;
+    right: 400px;
+}
 .ywm-mc-l {
     height: 470px;
     width: 210px;
