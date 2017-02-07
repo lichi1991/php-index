@@ -1,6 +1,8 @@
 $(document).ready(function(){
-
-
+//懒加载
+// $("img").lazyload({ 
+// effect : "fadeIn"
+// }); 
 //头部下拉框
 $(".ywm-nav-user").hover(function(){
 		$(".ywm-nav-username").attr("class","ywm-nav-username-hover");
