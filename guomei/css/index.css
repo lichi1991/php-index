@@ -991,31 +991,6 @@ img {
     background: #eee;
     position: relative;
 }
-.ywm-focus-bg{
-    width: 1200px;
-    overflow: hidden;
-}
-.ywm-focus-bg a img{
-    width: 300px;
-    height: 450px; 
-    overflow: hidden;
-}
-    
-.foucs-img-bgleft{
-    left: 50%;
-    position: absolute;
-    top: 0;
-    z-index: 99;
-    margin-left: -900px;
-}
-.foucs-img-bgright{
-    left: 50%;
-    position: absolute;
-    top: 0;
-    z-index: 99;
-    margin-left: 600px;
-    overflow: hidden;
-}
 .ywm-banner-box li {
     position: absolute;
     height: 450px;
