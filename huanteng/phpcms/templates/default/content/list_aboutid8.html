@@ -1,0 +1,34 @@
+{template "content","header"}
+    <link rel="stylesheet" href="{CSS_PATH}mycss/abouts.css">
+	<!--banner-->
+	<div class="banner-box">
+		<div class="banner">
+			<a href=""><img src="{IMG_PATH}myimg/ppbanner.jpg" alt=""></a>
+		</div>
+	</div>
+	<!---->
+	<div class="mid-box">
+		<div class="leftbox">
+			<div class="jieshao">
+			{pc:content action="category" catid="$CAT[parentid]"}
+			{loop $data $v}
+				<a href="{$v[url]}"><div class="ppjs">{$v[catname]}</div></a>
+			{/loop}
+			{/pc}
+			</div>
+		</div>
+		<div class="rightbox">
+			<div class="title">
+				<a href="">{$CATEGORYS[$top_parentid][catname]}<span>{$CATEGORYS[$top_parentid][catdir]}</span></a>
+				<a href="{siteurl($siteid)}" class="sp">首页<span>></span>{$CATEGORYS[$top_parentid][catname]}</a>
+			</div>
+			<div class="nr">
+		     <p style="text-indent:2em;" align="center">
+		                 <p style="padding: 28px;
+    line-height: 24px;
+    font-size: 12px;">资料更新中...</p>
+			  </p>
+		</div>
+	</div>
+</div>
+	{template "content","footer"}

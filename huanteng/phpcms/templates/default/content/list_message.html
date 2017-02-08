@@ -1,0 +1,56 @@
+{template "content","header"}
+    <link rel="stylesheet" href="{CSS_PATH}mycss/message.css">
+	<!--banner-->
+	<div class="banner-box">
+		<div class="banner">
+			<a href=""><img src="{IMG_PATH}myimg/ppbanner.jpg" alt=""></a>
+		</div>
+	</div>
+	<!---->
+	<div class="mid-box">
+		<div class="leftbox">
+			<div class="jieshao">
+                <a href=""><div class="ppjs">{$CATEGORYS[$top_parentid][catname]}</div></a>
+			</div>
+		</div>
+		<div class="rightbox">
+			<div class="title">
+				<a href="">{$CATEGORYS[$top_parentid][catname]}<span>{$CATEGORYS[$top_parentid][catdir]}</span></a>
+				<a href="{siteurl($siteid)}" class="sp">首页<span>></span>{$CATEGORYS[$top_parentid][catname]}</a>
+			</div>
+			 <div class="News_list">
+			  <div class="liuyan">
+        	    <form method="post" action="">
+        	       <table cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td>留言标题</td>
+                    <td><input type="text" name="fn_title"/></td>
+                </tr>
+                <tr>
+                	<td>您的姓名</td>
+                    <td><input type="text" name="fn_name" /></td>
+                </tr>
+                <tr>
+                	<td>电子邮件</td>
+                    <td><input type="text" name="fn_email" /></td>
+                </tr>
+                <tr>
+                	<td>联系方式</td>
+                    <td><input type="text" name="fn_tel" /></td>
+                </tr>
+                <tr>
+                	<td>留言内容</td>
+                    <td><textarea name="fn_content" cols="" rows=""></textarea></td>
+                </tr>
+                <tr>
+                	<td></td>
+                    <td><input type="submit" class="gb" value="" style="cursor:pointer;" /></td>
+                </tr>
+            </table>
+            </form>
+           </div>
+        </div>
+
+	</div>
+</div>
+	{template "content","footer"}

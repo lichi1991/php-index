@@ -1,0 +1,132 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input{
+  margin:0;
+  padding:0;
+  list-style:none;/*Çå³ýÁÐ±í±êÇ©Ð¡Ô²µã*/
+  font-family:Arial,"Î¢ÈíÑÅºÚ";
+}
+a{
+  color:#333;
+  text-decoration:none;
+  }
+  img{
+    border:none;
+  }
+  body{
+  background: #1a1a1a;
+}
+.top-box{
+  width: 100%;
+  height: 36px;  
+  background: #0d0d0d;
+}
+.tmid-box{ 
+  width: 1015px;
+  height: 100%;
+  margin:0 auto;
+}
+.tleft{
+  width: 110px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  color: #6b6b6b;
+}
+.tleft span{
+  color: #ff6e27;
+  margin-right: 5px;
+}
+.tright{
+  width:321px;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+  color: #6b6b6b;
+  text-align: center;
+  line-height: 36px; 
+}
+.tright span{
+  margin-right: 30px;
+}
+.tright span img{
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.logo{
+  width: 100%;
+  height: 103px;
+  background: url(../../images/myimg/nav.png)repeat-X;
+}
+.logo-mid{
+  width: 1015px;
+  height: 100%;
+  margin:0 auto;
+}
+.lleft{
+    width: 197px;
+    height: 57px;
+    float: left;
+    margin-top: 26px;
+    background: url(../../images/myimg/logo.png)no-repeat;
+}
+.lright{
+  width: 610px;
+  height: 100px;
+  float: right;
+}
+.lright a{
+  width: 86px;
+  height: 100%;
+  border-right: 1px solid #333333;
+  float: left;
+}
+.lright a:nth-child(1){
+  background: url(../../images/myimg/11.png)no-repeat;
+}
+.lright a:nth-child(1):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/2.jpg)no-repeat;
+}
+.lright a:nth-child(2){
+  background: url(../../images/myimg/22.png)no-repeat;
+}
+.lright a:nth-child(2):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/1.jpg)no-repeat;
+}
+.lright a:nth-child(3){
+  background: url(../../images/myimg/33.png)no-repeat;
+}
+.lright a:nth-child(3):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/3.jpg)no-repeat;
+}
+.lright a:nth-child(4){
+  background: url(../../images/myimg/44.png)no-repeat;
+}
+.lright a:nth-child(4):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/4.jpg)no-repeat;
+}
+.lright a:nth-child(5){
+  background: url(../../images/myimg/55.png)no-repeat;
+}
+.lright a:nth-child(5):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/5.jpg)no-repeat;
+}
+.lright a:nth-child(6){
+  background: url(../../images/myimg/66.png)no-repeat;
+}
+.lright a:nth-child(6):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/6.jpg)no-repeat;
+}
+.lright a:nth-child(7){
+  background: url(../../images/myimg/77.png)no-repeat;
+}
+.lright a:nth-child(7):hover{
+  margin-top: 3px;
+  background: url(../../images/myimg/7.jpg)no-repeat;
+}

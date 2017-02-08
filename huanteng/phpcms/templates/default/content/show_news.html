@@ -1,0 +1,37 @@
+{template "content","header"}
+<link rel="stylesheet" href="{CSS_PATH}mycss/newss.css">
+<div class="banner-box">
+		<div class="banner">
+			<a href=""><img src="{IMG_PATH}myimg/ppbanner.jpg" alt=""></a>
+		</div>
+	</div>
+	<!---->
+	<div class="mid-box">
+		<div class="leftbox">
+			<div class="jieshao">
+				<a href="{$CATEGORYS[2][url]}"><div class="ppjs">{$CATEGORYS[$top_parentid][catname]}</div></a>
+			</div>
+		</div>
+		<div class="rightbox">
+			<div class="title">
+				<a href="">{$CATEGORYS[$top_parentid][catname]}<span>{$CATEGORYS[$top_parentid][catdir]}</span></a>
+				<a href="{siteurl($siteid)}" class="sp">首页<span>></span>{$CATEGORYS[$top_parentid][catname]}</a>
+			</div>
+		<div class="Newslist">
+               	<ul>            	                                
+                                 
+                <li><span>
+                <article>
+                	{$content}
+                </article>
+                </span>
+					<em>{$updatetime}</em>
+                </li>                     
+            </ul>
+            <div class="clear"></div>
+            <div class="page"></div>
+     </div>
+     </div>
+     </div>
+     <div style="clear:both"></div>
+{template "content","footer"}

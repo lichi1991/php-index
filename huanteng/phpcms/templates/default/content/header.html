@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>广州欢腾鞋业-首页</title>
+	<link rel="stylesheet" href="{CSS_PATH}mycss/publics.css">
+</head>
+<body>
+	<!--顶部-->
+	<div class="top-box">
+		<div class="tmid-box">
+			<a href="" class="tleft"><span>▪</span>欢迎进入本网站!</a>
+			<a href="" class="tright">
+				<span><img src="{IMG_PATH}myimg/home.png" alt="">设为首页</span>
+				<span><img src="{IMG_PATH}myimg/sc.png" alt="">加入收藏</span>
+				<span><img src="{IMG_PATH}myimg/phone.png" alt="">联系我们</span>
+			</a>
+		</div>
+	</div>
+	<!--logo-->
+	<div class="logo">
+		<div class="logo-mid">
+			<div class="lleft"></div>
+			<div class="lright">
+				<a href="{siteurl($siteid)}"><div style="border-left:1px solid #333333"></div></a>
+				{pc:content action="category" catid="0" num="6" }
+				{loop $data $v}
+				<a href="{$v[url]}"></a>
+				{/loop}
+				{/pc}
+			</div>
+		</div>
+	</div>

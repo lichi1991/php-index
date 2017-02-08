@@ -1,0 +1,30 @@
+{template "content","header"}
+    <link rel="stylesheet" href="{CSS_PATH}mycss/indexs.css">
+	<!--banner-->
+	<div class="banner">
+			<div class="bannerbox">
+				<img src="{IMG_PATH}myimg/banner1.jpg" alt="">
+				<img src="{IMG_PATH}myimg/banner2.jpg" alt="">
+				<img src="{IMG_PATH}myimg/banner3.jpg" alt="">
+				<div class="bannerd">
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--选项卡-->
+	<div class="middle-box">
+		<div class="midimg-box">
+			{pc:content action="category" num="1"}
+			{loop $data $v}
+			<a href="{$CATEGORYS[1][url]}" class="hibox"></a>
+			<a href="{$CATEGORYS[3][url]}" class="hellobox"></a>
+			<a href="{$CATEGORYS[6][url]}" class="nhbox"></a>
+			{/loop}
+			{/pc}
+		</div>
+	</div>
+	{template "content","footer"}

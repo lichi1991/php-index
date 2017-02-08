@@ -1,0 +1,90 @@
+/*---banner---*/
+.banner{
+    height: 354px;
+    width: 100%;
+    background: url(../../images/myimg/banner.png) no-repeat center;
+    position: relative;
+}
+.bannerbox{
+	width: 1015px;
+    margin: 0 auto;
+    height: 354px;
+    position: relative;
+}
+.bannerbox img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.bannerd{
+	width: 506px;
+	height: 29px;
+    background: #f3640e;
+    position: absolute;
+    bottom: 0px;
+    padding: 11px 0 0 509px;
+}
+.bannerd ul{
+	width: 55px;
+	height: 10px;
+	position: absolute;
+	bottom: 10px;
+}
+.bannerd ul li{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #FFB267;
+	float: left;
+	margin-left: 10px;
+}
+.bannerd ul>.active{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-top: -2px;
+	background: white;
+}
+.middle-box{
+	width: 1015px;
+	height: 254px;
+	margin: 13px auto;
+	background: url(../../images/myimg/body.png)repeat-X;
+	position: relative;
+}
+.midimg-box{
+	width: 976px;
+	height: 172px;
+	position: absolute;
+	left: 20px;
+	top:53px;
+}
+.hibox{
+	width: 314px;
+	height: 172px;
+	float: left;
+	margin-right: 20px;
+	background: url(../../images/myimg/in4.jpg);
+}
+.hibox:hover{
+	background: url(../../images/myimg/in1.png);
+}
+.hellobox{
+    width:311px;
+    height: 169px;
+    float: left; 
+    margin-right: 19px;
+    background: url(../../images/myimg/04.jpg);
+}
+.hellobox:hover{
+	background: url(../../images/myimg/03.jpg);
+}
+.nhbox{
+	width:312px;
+	height: 170px;
+	float: left;
+	background: url(../../images/myimg/in3.png); 
+}
+.nhbox:hover{
+	background: url(../../images/myimg/in6.png);
+}
