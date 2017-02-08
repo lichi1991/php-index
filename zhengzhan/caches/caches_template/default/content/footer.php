@@ -1,6 +1,6 @@
 <?php defined('IN_PHPCMS') or exit('No permission resources.'); ?>
 
-<link rel="stylesheet" href="<?php echo CSS_PATH;?>drlcss/index.css">
+<link rel="stylesheet" href="<?php echo CSS_PATH;?>mycss/index.css">
 <div class="footer">
 		<div class="footer_top">
 			<div class="footer_topInfo">
@@ -81,13 +81,13 @@
 			<div class="footer_bomInfo">
 				<p>Copyright(c)2013 广州市建筑集团有限公司  | <a href="<?php echo $CATEGORYS['20']['url'];?>">联系我们</a> </p>
 				<p>
-					<img src="<?php echo IMG_PATH;?>drlimg/qrcode.png" alt="" class="footerimg">
+					<img src="<?php echo IMG_PATH;?>myimg/qrcode.png" alt="" class="footerimg">
 					<a href="javascript:void(0)">
-						<img src="<?php echo IMG_PATH;?>drlimg/qrcode.png" height="20" width="20" class="toer">
+						<img src="<?php echo IMG_PATH;?>myimg/qrcode.png" height="20" width="20" class="toer">
 					</a>
 					<span id="cnzz">
 						<a href="" title="站长统计">
-							<img src="<?php echo IMG_PATH;?>drlimg/pic1.gif" alt="">
+							<img src="<?php echo IMG_PATH;?>myimg/pic1.gif" alt="">
 						</a>
 					</span>
 					&nbsp;

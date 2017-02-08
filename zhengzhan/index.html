@@ -1,30 +1,494 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
-<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
-<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
-<title>PHPCMS</title>
-<style type="text/css">
-<!--
-.style1 {
-	color: #006699;
-	font-weight: bold;
-	font-size: 14px;
-}
-body,td,th {
-	color: #7C99E2;
-}
-body {
-	background-color: #0066CC;
-}
-.style2 {color: #FFFFFF}
--->
-</style>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>PHPCMS演示站</title>
+	<meta name="keywords" content="PHPCMS演示站">
+	<meta name="description" content="PHPCMS演示站">
+
+	<script type="text/javascript" src="http://localhost/zhengzhan/statics/js/myjs/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="http://localhost/zhengzhan/statics/css/mycss/index.css">
+	<script src="http://localhost/zhengzhan/statics/js/myjs/function.js"></script>
+	<script src="http://localhost/zhengzhan/statics/js/myjs/animate.js"></script>
+	<script src="http://localhost/zhengzhan/statics/js/myjs/jquery-1.12.4.min.js"></script>
+	<script src="http://localhost/zhengzhan/statics/js/myjs/indexjq.js"></script>
+	
 </head>
+
 <body>
-<div align="center" class="style1"><a href="index.php?m=admin" class="style2">首页尚未生成，请点击这里进入后台设置相关参数并发布网页</a></div>
+<!-- 顶部导航开始 -->
+<div class="header">
+<div class="topnavbox">
+	<div class="topnv-son">
+		<div class="searchbox">
+			<input type="text" value="请输入关键字"  id="search">
+			<a href="">ENGLISH</a>
+		</div>
+		<ul class="topnav">
+			<li class="lis">
+				<a href="http://localhost/zhengzhan" class="lis2">首页</a>
+				<dl class="twonav" style="opacity: 0">
+				</dl>
+			</li>
+										<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=1" class= >基本信息</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=8">公司简介</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=9">董事长致辞</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=10">组织架构</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=11">领导班子介绍</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=12">资质证书</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=13">企业荣誉</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=14">领导关怀</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=15">办公地点</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=16">联系方式</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=2" class= >企业经济运行情况</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=17">主营业务</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=18">企业发展与经营战略</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=19">招商引资与对外合作</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=20">自主创新</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=3" class= >企业文化</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=21">文化活动</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=22">企业刊物</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=23">企业视频</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=4" class= >新闻动态</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=24">集团要闻</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=25">下属企业动态</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=26">行业资讯</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=5" class= >科技创新</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=27">科技动态</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=28">创新平台</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=29">科技成果</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=30">科技奖励</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=6" class= >社会责任</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=31">社会责任</a></dd>
+													<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=32">人才招聘</a></dd>
+															</dl>
+							</li>
+						<li class="lis">
+				<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=7" class= >联系我们</a>
+				<dl class="twonav">
+																		<dd><a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=35">联系我们</a></dd>
+															</dl>
+							</li>
+							</ul>
+	</div>
+</div>
+</div>
+
+	<!-- banner -->
+	<div class="banner_box">
+		<div class="bannerbox">
+    <div class="banner">
+        <img src="http://localhost/zhengzhan/statics/images/myimg/banner01.jpg" class="banner01" style="opacity: 0;">
+        <img src="http://localhost/zhengzhan/statics/images/myimg/banner02.jpg" class="banner02" style="opacity: 1;">
+        <img src="http://localhost/zhengzhan/statics/images/myimg/banner03.jpg" class="banner03" style="opacity: 0;">
+    </div>
+    <ul class="btnbox">
+        <li class="btns" style="background: rgb(170, 170, 170);"></li>
+        <li class="btns" style="background: rgb(240, 111, 49);"></li>
+        <li class="btns" style="background: rgb(170, 170, 170);"></li>
+    </ul>
+</div>
+	</div>
+	<!-- 要闻 动态 -->
+	<div class="content">
+		<div class="con_top">
+			<div class="slideTxtBox">
+				<div class="hb">
+									
+					<ul>
+						
+						<li class="">
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=24"></a>
+							集团要闻						</li>
+						
+						<li class="">
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=25"></a>
+							下属企业动态						</li>
+						
+						<li class="">
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=26"></a>
+							行业资讯						</li>
+											</ul>
+					
+						<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=26">MORE+</a>
+									</div>
+				<div class="bd">
+					 
+					<ul style="display:block;">
+											<li>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=24&id=25">
+								<span class="date">2017-02-08</span>
+								·广州建筑科技成果&ldquo;广州塔工程关...							</a>
+						</li>
+											</ul>
+									</div>
+				<div class="bd">
+					 
+					<ul style="display:none;">
+											<li>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=25&id=26">
+								<span class="date">2017-02-08</span>
+								·&ldquo;广东省建筑工业化工程技术研究...							</a>
+						</li>
+												<li>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=25&id=27">
+								<span class="date">2017-02-08</span>
+								·广州今年投资1225亿建258重点项...							</a>
+						</li>
+											</ul>
+									</div>
+				<div class="bd">
+					 
+					<ul style="display:none;">
+											<li>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=26&id=29">
+								<span class="date">2017-02-08</span>
+								·中央经济工作会议定调2017 建筑...							</a>
+						</li>
+											</ul>
+									</div>
+			</div>
+			<!-- /*右边新闻*/ -->
+			<div class="newsBanner">
+				<div class="newsBannerTit">
+										<p class="tit1"></p>
+					
+					<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=26" class="newslist aspx">MORE+</a>
+					
+									</div>
+				<div class="mF_YSlider_wrap">
+									<div id="myFocus" class="mF_YSlider mF_YSlider_myFocus">
+						<div class="pic">
+														 <img src='http://localhost/zhengzhan/uploadfile/2017/0208/20170208105928978.jpg' alt='“广东省建筑工业化工程技术研究中心”获认定' text='' />
+                       		 <a href='http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=25&id=26'></a>
+                       									 <img src='http://localhost/zhengzhan/uploadfile/2017/0208/20170208105843237.jpg' alt='广州建筑科技成果“广州塔工程关键技术”' text='' />
+                       		 <a href='http://localhost/zhengzhan/index.php?m=content&c=index&a=show&catid=24&id=25'></a>
+                       									<p>广州建筑科技成果“广州塔工程关键技术”</p>
+                    	</div>
+					</div>
+                    	<div class="num">
+                    		<ul>
+                    		                    		                    			<li>
+                    				<a>1</a>
+                    				<b></b>
+                    			</li>
+                    			                    		                    			<li>
+                    				<a>2</a>
+                    				<b></b>
+                    			</li>
+                    			                    		                    		</ul>
+                    	</div>
+                    </div>
+                    				</div>
+			</div>
+		</div>
+		<!-- 理念 -->
+		<div class="con_con fixed">
+			<ul>
+				<li>
+					<a href="" class="con_conPic1" title="企业理念"></a>
+				</li>
+				<li>
+					<a href="" class="con_conPic2" title="文化活动" href=" ">
+            </a>
+				</li>
+				<li>
+					<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=19" class="con_conPic3" title="社会责任报告" href="">
+            </a>
+				</li>
+			</ul>
+		</div>
+		<!-- 重点发展方向 -->
+		<div class="con_bom">
+			<div class="con_bomleft">
+				<div class="con_bomTit">
+					<p class="tit2">
+						<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=30">MORE+</a>
+					</p>
+				</div>
+				<div class="sideMenu">
+													<h3 class="hoot">
+						<p>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=15">第七资源热力电厂工程</a>
+						</p>
+					</h3>
+					
+					<ul >
+						<li>
+							<div>
+                            <div class="hjgcImg" style="margin: 0px; padding: 0px; float: left; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;"><a href="http://www.gzmcg.com/productview.aspx?id=115" style="margin: 0px; padding: 0px; text-decoration: none; color: rgb(51, 51, 51);"><img src="http://localhost/zhengzhan/uploadfile/2017/0208/20170208102522915.jpg" style="margin: 0px; padding: 3px; border: 1px solid rgb(224, 224, 224); position: relative; width: 156px; height: 105px; z-index: 1;" /></a></div>
+<div class="hjgcInfo" style="margin: 0px; padding: 0px 0px 0px 20px; float: left; width: 440px; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;">
+<p style="margin: 0px; padding: 0px;"><span class="fixed" style="margin: 0px; padding: 5px 0px; display: block; min-height: 1%;"><a href="http://www.gzmcg.com/productview.aspx?id=115" style="margin: 0px; padding: 0px 5px 0px 0px; text-decoration: none; color: rgb(25, 131, 213); background: none; text-indent: 0em; font-size: 14px; height: 18px; line-height: normal; display: block; float: left; font-weight: bold; font-stretch: normal; font-family: 宋体;">第七资源热力电厂工程</a></span></p>
+<p class="hjgctext" style="margin: 0px; padding: 5px 0px;">&nbsp;&nbsp;&nbsp;从化固体废弃物综合处理中心（广州市第七资源热力电厂）主厂房,辅助生产区及相关配套设施；倒班宿舍、食堂及相关配套设施。项目占地面积15.6万平方米,总建筑面积29928平方米。该工程建设单位是广州环投从化环保能源有限公司,设计...</p>
+<p class="hjgctime" style="margin: 0px; padding: 5px 0px;">承建单位：广州市市政集团</p>
+</div>
+<br />
+							</div>
+						</li>
+					</ul>
+										<h3 class="hoot">
+						<p>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=15">广州市第六资源热力电厂-土建施工总承包工程</a>
+						</p>
+					</h3>
+					
+					<ul >
+						<li>
+							<div>
+                            <div class="hjxx" style="margin: 0px auto; padding: 20px 0px 0px; width: 672px;">
+<div class="hjxxIn" style="margin: 0px auto; padding: 0px; width: 672px; overflow: hidden; zoom: 1;">
+<div class="bd" style="margin: 0px; padding: 0px 0px 11px; width: 672px; height: 463px;">
+<ul style="margin: 0px; padding-right: 0px; padding-left: 0px; list-style: none; width: 672px; position: relative; height: 463px;">
+<li style="margin: 0px; padding: 0px; list-style: none; vertical-align: middle; position: absolute; width: 672px; left: 0px; top: 0px;"><img src="http://localhost/zhengzhan/uploadfile/2017/0208/20170208104735775.jpg" style="margin: 0px auto; padding: 3px; border: 1px solid rgb(229, 229, 229); width: 664px; height: 455px; display: block;" /></li>
+</ul>
+</div>
+</div>
+<div class="hjInfo" style="margin: 0px auto; padding: 0px 0px 20px; clear: both; width: 672px;">
+<p style="margin: 0px; padding: 5px 0px; line-height: 24px; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;"><span style="margin: 0px; padding: 0px; font-weight: bold;">项目简介：</span></p>
+<p style="margin: 0px; padding: 5px 0px; line-height: 24px; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;">&nbsp;&nbsp; 本项目位于增城市仙村镇碧潭村西南部五叠岭废弃采石场，总占地面积133333m2，根据本垃圾焚烧发电厂各部分在生产中所起的作用不同，将整个厂区划分如下几个功能区：主要生产区、公辅设施区、行政管理区和绿化景观区。</p>
+<div>&nbsp;</div>
+</div>
+</div>
+							</div>
+						</li>
+					</ul>
+										<h3 class="hoot">
+						<p>
+							<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=15">广州新城</a>
+						</p>
+					</h3>
+					
+					<ul >
+						<li>
+							<div>
+                            <p style="margin: 0px; padding: 5px 0px; line-height: 2; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;">广州新城地处新疆喀什地区疏附县境内，是广州市对口援建新疆喀什疏附县，由广州市建筑集团、广百集团两大国企投资建设的广东省目前最大的产业援疆项目。广州新城占地约6000亩，总建筑面积400多万平方米，预计总投资约70亿元，是集现代商贸物流、休闲度假、宜居社区为一体的城市生态综合体，项目建成后将容纳8万以上人口生活居住，为当地提供近万个劳动就业岗位。</p>
+<p style="margin: 0px; padding: 5px 0px; line-height: 2; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;">　　广州新城计划分三期建设，预计五年内完成。第一期是商贸区，第二期是城市客厅商务区，第三期是家居配套服务区。商贸区包括小商品城、五金建材家居城、机电机械汽配城、春天百货广场、国际商业街以及广货中心，总面积达150万平方米，其中2011年已封顶20万平方米。2012年开工建设达44万平方米，将实现六个项目全部开盘，小商品城、五金建材家居城和机电机械汽配城等三个项目盛大开业。同时，五星级酒店、医院、学校等配套项目也即将开工。</p>
+<p style="margin: 0px; padding: 5px 0px; line-height: 2; color: rgb(51, 51, 51); font-family: 宋体, 微软雅黑, Arial;">&nbsp;&nbsp;&nbsp; 为了确保广州新城项目的后续经营与发展，同时配套建设一个占地面积达5000亩的仓储物流园，开通广州至喀什的援疆铁路货运专线，从根本上解决&ldquo;广货北上、疆货南下&rdquo;的交通瓶颈问题，争取把广州新城作为边贸经济合作区。未来将形成&ldquo;广州新城&rdquo;带动的大商贸、大物流、大市场的基本格局，带动喀什地区、疏附县商贸物流的快速发展，初步形成南疆地区最有影响的、辐射中亚南亚地区的国际商贸物流中心。</p>
+							</div>
+						</li>
+					</ul>
+															
+				</div>
+				
+
+			</div>
+
+			<div class="con_bomright">
+				<ul id="indexPicOn" style="width: 627px; margin: 0px auto;">
+					<li>
+						<a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=15">
+							<p class="ttit1"></p>
+						</a>
+						<div class="sfqMenu">
+							<div class="sfqMenuImg" style="display:block">
+								<a href="" title="第四资源热力电厂项目">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/93fce32a-7da6-4015-a628-a49def67fa23.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="on">第四资源热力电厂项目</h3>
+
+							<div class="sfqMenuImg" >
+								<a href="" title="广州南沙区芦湾项目">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/eb5b695f-cf28-45da-90e6-84b1ecde3cae.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="">广州南沙区芦湾项目</h3>
+							<div class="sfqMenuImg" >
+								<a href="" title="噪音区保良北地块项目">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/0784cb0d-24ce-4d44-998e-92aef7571746.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="">噪音区保良北地块项目</h3>
+
+						</div>
+					</li>
+
+					<li>
+						<a href="">
+							<p class="ttit2"></p>
+						</a>
+						<div class="sfqMenu">
+							<div class="sfqMenuImg" style="display:block">
+								<a href="" title="广州新城">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/57b37cfd-113a-4367-8863-81e8c6524d5a.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="on">广州新城</h3>
+							
+							<div class="sfqMenuImg" style="display: none;">
+								<a href="" title="南湖一品湖山">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/99e66099-2797-42b6-81e3-42336e3cdbc0.bmp" alt="">
+								</a>
+							</div>
+							<h3 class="">南湖一品湖山</h3>
+							<div class="sfqMenuImg" style="display: none;">
+								<a href="" title="福基苑">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/3c58489b-3e43-41d1-8fb7-e891cdff038b.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="">福基苑</h3>
+
+						</div>
+					</li>
+
+					<li>
+						<a href="">
+							<p class="ttit3"></p>
+						</a>
+						<div class="sfqMenu">
+							<div class="sfqMenuImg" style="display:block">
+								<a href="" title="环保型多功能建筑材料-无...">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/3c3d28a8-6032-43b0-a653-e4f49a7295e0.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="on">环保型多功能建筑材料-无...</h3>
+							
+							<div class="sfqMenuImg" style="display: none;">
+								<a href="" title="环保型多功能建筑材料-混...">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/b05b2ab2-ab2b-44c2-902b-0b3132c4a6e0.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="">环保型多功能建筑材料-混...</h3>
+							<div class="sfqMenuImg" style="display: none;">
+								<a href="" title="环保型多功能建筑材料-多...">
+									<img src="http://localhost/zhengzhan/statics/images/myimg/3be86194-9003-43bc-89cd-a73f633f7029.jpg" alt="">
+								</a>
+							</div>
+							<h3 class="">环保型多功能建筑材料-多...</h3>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- <hr>
+	<hr>
+	<div style="border:1px solid red;width:1000px;height:300px">
+						<ul >
+										</ul>
+			</div> -->
+	
+
+
+
+
+<link rel="stylesheet" href="http://localhost/zhengzhan/statics/css/mycss/index.css">
+<div class="footer">
+		<div class="footer_top">
+			<div class="footer_topInfo">
+							<ul class="foot_sel">
+					<li class="foot_selLi">
+						<div class="selCont">
+							<select id="my-dropdown3" name="my-dropdown" onchange="">
+										             		<option value=""></option>
+							</select>
+						</div>
+					</li>
+					
+
+					<li class="foot_selLi">
+			          <div class="selCont">
+			            <select id="my-dropdown3" name="my-dropdown" onchange="">
+			              <option value="" selected="selected">集团下属企业</option>
+			             <option value="http://www.gzsz.com.cn"><a href="http://www.gzsz.com.cn"></a>市政集团</option>
+			             <option value="http://www.gecg.com.cn/">总承包集团</option>
+			             <option value="http://www.gzietcot.com/">中广国际</option>
+			             <option value="http://www.gzyj.com">一建公司</option>
+			             <option value="http://www.gej.cc/gb/index.html">二建公司</option>
+			             <option value="http://www.gz3ce.com">三建公司</option>
+			             <option value="http://www.gzsj.com.cn">四建公司</option>
+			             <option value="http://www.gzsjjs.com">机施集团</option>
+			             <option value="http://www.gzja.com.cn/">机安公司</option>
+			             <option value="http://www.gzbm123.com">建材公司</option>
+			             <option value="http://www.gibs.com.cn">建科院</option>
+			             <option value="http://www.gzalu.com/">铝质公司</option>
+			             <option value="http://www.gzhsc.com.cn">恒盛公司</option>
+			             <option value="http://dunjian.com">盾建公司</option>
+			             <option value="http://www.gzjgy.com/">建工设计院</option>
+			            </select>
+			          </div>
+			        </li>
+			        <li class="foot_selLi">
+				         <div class="selCont">
+				            <select id="my-dropdown4" name="my-dropdown" onchange="">
+				              <option value="" selected="selected">行业网站</option>
+				              <option value="http://www.zhulong.com/index.asp">筑龙网</option>
+				              <option value="http://www.gcia.org.cn">广州建筑业联合会</option>
+				              option value="http://www.cacem.com.cn">中国施工企业管理协会网</option>
+				              <option value="http://www.zgjzy.org">中国建筑业协会</option>
+				            </select>
+				          </div>
+				     </li>
+				     <li>
+
+
+
+
+
+
+					<div class="bdsharebuttonbox" style="float:right">
+							
+							<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+							<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+							<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+							<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+							<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+							<a href="#" class="bds_more" data-cmd="more"></a>
+							<a title="累计分享91次" href="" class="shareCount">91</a>
+					</div>
+					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+				</ul>
+							</div>
+		</div>
+		<div class="footer_bom">
+			<div class="footer_bomInfo">
+				<p>Copyright(c)2013 广州市建筑集团有限公司  | <a href="http://localhost/zhengzhan/index.php?m=content&c=index&a=lists&catid=20">联系我们</a> </p>
+				<p>
+					<img src="http://localhost/zhengzhan/statics/images/myimg/qrcode.png" alt="" class="footerimg">
+					<a href="javascript:void(0)">
+						<img src="http://localhost/zhengzhan/statics/images/myimg/qrcode.png" height="20" width="20" class="toer">
+					</a>
+					<span id="cnzz">
+						<a href="" title="站长统计">
+							<img src="http://localhost/zhengzhan/statics/images/myimg/pic1.gif" alt="">
+						</a>
+					</span>
+					&nbsp;
+					<a href="">粤ICP备13083209号</a>
+					&nbsp;&nbsp;
+					<a title="专业广州网站建设|专业深圳网站建设|优网科技" class="cgray" target="_blank" href="http://www.uweb.net.cn/">Design by uweb</a>
+				</p>
+			</div>
+		</div>
+</div>
+	<!-- 上 -->
+	<a href="##" class="TOP"  ></a>
+</div>
 </body>
 </html>
