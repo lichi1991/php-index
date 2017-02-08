@@ -1643,6 +1643,10 @@ color: #e3101e;
     top: 0;
     left: 0;
 }
+.ywm-nav li.ywm-cur a{
+    background: #e3101e;
+    opacity: 1;
+}
 .last{
     position: absolute;
     top: 235px;
