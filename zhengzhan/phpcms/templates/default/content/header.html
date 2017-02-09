@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+	<meta name="keywords" content="{$SEO['keyword']}">
+	<meta name="description" content="{$SEO['description']}">
+
+	<script type="text/javascript" src="{JS_PATH}myjs/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="{CSS_PATH}mycss/index.css">
+	<script src="{JS_PATH}myjs/function.js"></script>
+	<script src="{JS_PATH}myjs/animate.js"></script>
+	<script src="{JS_PATH}myjs/jquery-1.12.4.min.js"></script>
+	<script src="{JS_PATH}myjs/indexjq.js"></script>
+	
+</head>
+
+<body>
+<!-- 顶部导航开始 -->
+<div class="header">
+<div class="topnavbox">
+	<div class="topnv-son">
+		<div class="searchbox">
+			<input type="text" value="请输入关键字"  id="search">
+			<a href="">ENGLISH</a>
+		</div>
+		<ul class="topnav">
+			<li class="lis">
+				<a href="{siteurl($siteid)}" class="lis2">首页</a>
+				<dl class="twonav" style="opacity: 0">
+				</dl>
+			</li>
+		{php $a=9}
+		{pc:content action="category" catid="0" num="25"  order="listorder ASC"}
+			{loop $data $r}
+			<li class="lis">
+				<a href="{$r[url]}" class= {if $r[catid]==$top_parentid}lis2{/if}>{$r[catname]}</a>
+				<dl class="twonav">
+					{pc:content action="category"  catid="$r[catid]"  num="25"  order="listorder ASC"}
+						{loop $data $d}
+							<dd><a href="{$d[url]}">{$d[catname]}</a></dd>
+						{/loop}
+					{/pc}
+				</dl>
+				{$a++}
+			</li>
+			{/loop}
+		{/pc}
+		</ul>
+	</div>
+</div>
+</div>
