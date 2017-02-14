@@ -1,0 +1,8 @@
+language: php
+php:
+- 5.5
+- 5.4
+- hhvm
+script: phpunit Test.php
+# uncomment and edit the following line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
